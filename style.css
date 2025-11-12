@@ -1,0 +1,104 @@
+/* === Reset dasar === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Gaya umum === */
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.7;
+  padding: 0;
+  margin: 0;
+}
+
+/* === Header === */
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 20px 40px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #1f2937;
+}
+
+header nav a {
+  color: #374151;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav a:hover {
+  color: #2563eb;
+}
+
+/* === Konten utama === */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+article {
+  padding: 40px;
+}
+
+article h2 {
+  font-size: 1.8rem;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+article p {
+  margin-bottom: 1.2em;
+}
+
+article img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+blockquote {
+  border-left: 4px solid #2563eb;
+  background: #f0f4ff;
+  padding: 10px 20px;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+/* === Responsif === */
+@media (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  article {
+    padding: 25px;
+  }
+
+  article h2 {
+    font-size: 1.5rem;
+  }
+}
